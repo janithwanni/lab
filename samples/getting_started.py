@@ -1,8 +1,8 @@
 """
 ```trial
-2019-07-28 16:10:06
+2019-10-17 14:39:07
 Sample lab experiment
-[[dirty]]: 🗑  remove guards, use https://github.com/vpj/guards
+[[dirty]]: 🐛 tensorflow compat fix
 start_step: 0
 
 --------------------------
@@ -11,7 +11,6 @@ start_step: 0
 |          10 |     1.50 |
 |          20 |     4.83 |
 |          30 |     8.17 |
-|          40 |    11.50 |
 --------------------------
 ```
 """

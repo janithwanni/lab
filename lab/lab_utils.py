@@ -36,7 +36,7 @@ def get_tensorboard_cmd(lab: Lab, experiments: List[str]):
 
         log_dirs.append(f"{exp_name}:{exp.summary_path}")
 
-    return f"tensorboard --logdir={','.join(log_dirs)}"
+    return f"tensorboard --host localhost --logdir={','.join(log_dirs)}"
 
 
 def get_trials(lab: Lab, exp_name: str):
